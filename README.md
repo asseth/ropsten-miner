@@ -5,7 +5,7 @@ Ropsten-miner is a docker container which let you mine ropsten testnet ethers on
 ## usage
 
     git clone https://github.com/asseth/ropsten-miner
-    cd ropten-miner
+    cd ropsten-miner
     docker build -t asseth/ropsten-miner .
     docker run --name ropsten-miner2 -e ETHERBASE=0x... asseth/ropsten-miner
 
